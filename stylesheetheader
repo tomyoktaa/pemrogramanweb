@@ -1,0 +1,151 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+/* Header */
+header{
+    background-color: lightblue;
+    color: white;
+    height: 90px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-nav li{
+    float: left;
+    padding: 35px 20px;
+}
+
+/* Main */
+
+main{
+    padding: 100px 80px;
+
+}
+
+.main-container h1{
+    font-size: 95px;
+}
+
+.main-container span{
+    color: red;
+}
+
+.main-container h2{
+    font-size: 60px;
+}
+
+/* Contents */
+
+.contents{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.section-title{
+    border-bottom: 2px solid gray;
+    font-size: 28px;
+    padding-bottom: 15px;  
+    margin-bottom: 50px;
+}
+
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+
+.contents-img{
+    width: 235px;
+    height: 235px;
+    padding: 10px;
+    background-color: red;
+}
+
+.contents-img.htmlcss{
+    background-color: white;
+}
+.contents-img.php{
+    background-color: green;
+}
+.contents-img.java{
+    background-color: yellow;
+}
+.contents-img.python{
+    background-color: red;
+}
+
+.contents-img img{
+    width: 230px;
+}
+
+.contents-item p{
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Contact */
+.contact{
+    padding-top: 100px;
+
+}
+
+input,textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid gray;
+}
+
+.contact-submit{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.txt-red{
+    color: red;
+}
+
+/* Footer */
+footer{
+    background-color: darkblue;
+    color: white;
+    padding: 20px 40px;
+    height: 30px;
+
+}
+
+.footer-logo{
+    float: left;
+    font-size: 30px;
+}
+
+.footer-nav{
+    float: right;
+}
+
+.footer-nav li{
+    padding: 10px 20px;
+    float: left;
+}
